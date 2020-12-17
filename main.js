@@ -18,12 +18,12 @@
 // A function that removes an item at a given index from our todo list array. You can use splice!
 
 
-// Given a todo object, put it on the DOM. This is a pretty big function, so we'll walk through the different parts of it.
+// A function that takes in a todo object and displays it on the DOM. This is a pretty big function, so we'll walk through the different parts of it.
 const printTodo = function(todo) {
-  // Use `document.createElement` to make an <li>, and set its text (preferably using `.innerText`) to be our given object's text field. Check out what a todo object looks like in `todos.js` if you need to!
+  // Use `document.createElement` to make an <li>.
 
 
-
+  // Set its text (preferably using `.innerText`) to be our given object's text field. Check out what a todo object looks like in `todos.js` if you need to!
 
 
   // Give our new li a `todo-item` class using `classList`. This will allow us to style it later if we want.
@@ -89,7 +89,7 @@ Let's wire it all together. Add an event listener for the add todo button that w
 
 /* 
 
-Wire up your clear todos button. Give it an event listener that clears all todos from the DOM (we have a function for that!) and removes all todo objects from the todos array as well.
+ Run over to the HTML and add a button for CLEAR TODOS or REMOVE TODOS or some such, giving it a class or id of your choice. Now let's wire up that button, giving it a click event listener that clears all todos from the DOM (we have a function for that!) and removes all todo objects from the todos array as well.
 
 */
 
