@@ -24,12 +24,6 @@ const printTodo = function(todo) {
 
 
 
-  // Query the ol and save it in a variable.
-
-
-
-  // Append the li we made to the ol as the last child using `.appendChild`. If this isn't working for you, check what is being appended to what!
-
 
 
   // Give our new li a `todo-item` class using `classList`. This will allow us to style it later if we want.
@@ -48,6 +42,14 @@ const printTodo = function(todo) {
   // This is quite a challenge, so feel free to come back to this one at the end!
   // You'll want to add an event listener to the `li` you just made, and in that event listener function, toggle its completeness on both the DOM (using `classList.toggle`) and in our global array (toggling its completeness property).
   // The hard part will be finding it on the DOM and finding it in our array. We can tell what `li` was clicked using the `event` property passed in to the event listener, and we can tell what object it goes to using the DOM element's id that we added above.
+
+
+  // Query the ol and save it in a variable.
+
+
+
+  // Append the li we made to the ol as the last child using `.appendChild`. If this isn't working for you, check what is being appended to what!
+
 
 
 }
