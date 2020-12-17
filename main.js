@@ -28,7 +28,7 @@ const printTodo = function(todo) {
 
 
 
-  // Append the li we made to the ul as the last child using `.appendChild`. If this isn't working for you, check what is being appended to what!
+  // Append the li we made to the ol as the last child using `.appendChild`. If this isn't working for you, check what is being appended to what!
 
 
 
