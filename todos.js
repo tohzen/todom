@@ -28,7 +28,7 @@ const todos = [
   },
 
   {
-    text: 'fire Colin',
+    text: 'fire Alex',
     complete: true,
     priority: 2,
     id: 4,
